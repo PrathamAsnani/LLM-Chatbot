@@ -52,28 +52,3 @@ project-root/
 🧠 Setting Up LM Studio (IMPORTANT)
 
 This project does NOT use OpenAI cloud APIs. Instead, it uses LM Studio as a local OpenAI-compatible server.
-
-Steps:
-
-Download LM Studio
-
-Download model: llama-3.2-3b-instruct
-
-Go to Local Server tab
-
-Start server with:
-
-Port: 1234
-
-OpenAI-compatible API: Enabled
-
-Once running, the API will be available at:
-
-http://localhost:1234/v1
-
-No API key is required.
-
-🧪 Running the Application
-streamlit run app.py
-
-Then open:
